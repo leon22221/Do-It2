@@ -75,7 +75,7 @@
             localStorage.setItem("ErlAuf", ErlAuf); // Punktzahl der erledigten Aufgaben in den Local Storage speichern
 
             // Weiterleitung zur Statistikseite mit JavaScript
-            window.location.href = 'https://leon22221.github.io/Site-L/?status=completed';
+            window.location.href = 'https://leon22221.github.io/Site-M/?status=completed';
         });
 
         document.getElementById('neinButton').addEventListener('click', function() {
@@ -89,7 +89,7 @@
         localStorage.setItem("punkte", punkte);
 
             // Weiterleitung zur Statistikseite mit dem Hinweis auf ein Free Ticket
-            window.location.href = 'https://leon22221.github.io/Site-L/?status=not_completed';
+            window.location.href = 'https://leon22221.github.io/Site-M/?status=not_completed';
         });
     </script>
     </body>
